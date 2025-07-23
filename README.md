@@ -1,5 +1,3 @@
-# 21stlegislativecouncil.io
-Matanao 21st legislative website
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,55 +5,70 @@ Matanao 21st legislative website
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Matanao 21st Legislative Council</title>
   <style>
+    :root {
+      --primary: maroon;
+      --accent: darkorange;
+      --light-bg: #fff;
+      --light-accent: #ffe5cc;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background-color: white;
+      background-color: var(--light-bg);
       margin: 0;
       color: #333;
     }
+
     header {
-      background-color: orange;
+      background-color: var(--primary);
       color: white;
       padding: 20px;
       text-align: center;
     }
+
     nav {
-      background: #fff3e0;
+      background: var(--light-accent);
       padding: 10px;
       text-align: center;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
+
     nav a {
       margin: 10px;
-      color: orange;
+      color: var(--accent);
       text-decoration: none;
       font-weight: bold;
     }
+
     section {
       padding: 20px;
     }
+
     .section-title {
-      color: orange;
-      border-bottom: 2px solid orange;
+      color: var(--primary);
+      border-bottom: 2px solid var(--accent);
       margin-bottom: 10px;
     }
+
     .button {
       display: inline-block;
       margin-top: 20px;
-      background-color: orange;
+      background-color: var(--accent);
       color: white;
       padding: 12px 20px;
       text-decoration: none;
       border-radius: 5px;
     }
+
     footer {
-      background: #ffe0b2;
+      background: var(--light-accent);
       padding: 10px;
       text-align: center;
       color: #555;
     }
+
     @media (max-width: 600px) {
       nav a {
         display: block;
